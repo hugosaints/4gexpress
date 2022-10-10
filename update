@@ -1,11 +1,11 @@
 {
     "Version": "2.0",
     "ReleaseNotes": "👋Atualização disponível! 👋",
-    "Sms": "http://66.70.235.243/sms.php",
-    "UrlUpdate": "http://66.70.235.243/update.php",
+    "Sms": "",
+    "UrlUpdate": "https://raw.githubusercontent.com/infinity-4g/4gexpress/main/update",
     "EmailFeedback": "contato@4gexpress.fun",
     "UrlContato": "https://t.me/telegram",
-    "UrlTermos": "http://66.70.235.243/apps/termos.php",
+    "UrlTermos": "",
     "CheckUser": "true",
     "Udp": [
         {
@@ -18,7 +18,7 @@
             "TYPE": "premium",
             "FLAG": "br.png",
             "ServerIP": "4gexpress.fun",
-            "CheckUser": "http://177.67.82.87:5464/checkUser",
+            "CheckUser": "http://177.67.82.87:5454/checkUser",
             "ServerPort": "22",
             "SSLPort": "443",
             "USER": "",
