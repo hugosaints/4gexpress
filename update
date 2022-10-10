@@ -1,0 +1,70 @@
+{
+    "Version": "2.0",
+    "ReleaseNotes": "👋Atualização disponível! 👋",
+    "Sms": "http://66.70.235.243/sms.php",
+    "UrlUpdate": "http://66.70.235.243/update.php",
+    "EmailFeedback": "contato@4gexpress.fun",
+    "UrlContato": "https://t.me/telegram",
+    "UrlTermos": "http://66.70.235.243/apps/termos.php",
+    "CheckUser": "true",
+    "Udp": [
+        {
+            "Porta": "7300"
+        }
+    ],
+    "Servers": [
+        {
+            "Name": "Qnax",
+            "TYPE": "premium",
+            "FLAG": "br.png",
+            "ServerIP": "4gexpress.fun",
+            "CheckUser": "http://177.67.82.87:5464/checkUser",
+            "ServerPort": "22",
+            "SSLPort": "443",
+            "USER": "",
+            "PASS": ""
+        }
+    ],
+    "Networks": [
+        {
+            "Name": "Operadora Vivo 1",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: d1rj2qajgmwc2z.cloudfront.net[crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "13.227.126.60",
+            "ProxyIP": "13.227.126.60",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "Operadora Tim",
+            "FLAG": "tim",
+            "Payload": "Payload": "GET wss://bam.nr-data.net// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep -Vivo[crlf][crlf]",
+            "SNI": "bam.nr-data.net",
+            "TlsIP": "162.247.241.14",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Direct"
+        },
+        {
+            "Name": "Operadora Claro",
+            "FLAG": "claro",
+            "Payload": "GET wss://lp.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "lp.livestream.com",
+            "TlsIP": "lp.livestream.com",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "Operadora Oi",
+            "FLAG": "oi",
+            "Payload": "GET ws://www.hbogo.com.br HTTP/1.1rnHost: [app_host]rnUpgrade: wsrnrn",
+            "SNI": "www.hbogo.com.br",
+            "TlsIP": "www.hbogo.com.br",
+            "ProxyIP": "",
+            "ProxyPort": "",
+            "Info": "Tlsws"
+        }
+    ]
+}
