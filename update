@@ -1,5 +1,5 @@
 {
-    "Version": "2.0",
+    "Version": "2.1",
     "ReleaseNotes": "👋Atualização disponível! 👋",
     "Sms": "",
     "UrlUpdate": "https://raw.githubusercontent.com/infinity-4g/4gexpress/main/update",
@@ -27,7 +27,7 @@
     ],
     "Networks": [
         {
-            "Name": "Operadora Vivo 1",
+            "Name": "Operadora Vivo",
             "FLAG": "vivo",
             "Payload": "GET / HTTP/1.1[crlf]Host: d1rj2qajgmwc2z.cloudfront.net[crlf]Upgrade: websocket[crlf][crlf]",
             "SNI": "",
